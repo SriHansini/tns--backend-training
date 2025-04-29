@@ -3,21 +3,19 @@
  */
 package com.tnsif.variabledemo;
 
-/**
- * 
- */
+
 public class DemoTypeVariables {
+    int numone;
+    int num;
+    int number;
 
-	public DemoTypeVariables() {
-		// TODO Auto-generated constructor stub
-	}
+    static int numthree = 30;
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+    DemoTypeVariables() {
+        int numtwo = 20;
+        System.out.println("This is local variable: " + numtwo);
+    }
 }
+
+
+
