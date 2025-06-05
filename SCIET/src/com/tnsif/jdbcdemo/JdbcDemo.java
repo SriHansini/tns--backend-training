@@ -8,7 +8,7 @@ public class JdbcDemo {
 	
 	private static String Password="Admin123";
 	
-	private static String URL="jdbc:postgresql://localhost:5432/sciet";
+	private static String URL="jdbc:postgresql://localhost:5432/SCIET";
 	
 	public static void main(String[] args)  {
 		
